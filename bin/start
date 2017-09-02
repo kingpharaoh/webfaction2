@@ -1,0 +1,5 @@
+#!/bin/sh
+/sbin/pidof /home/kingpharaoh/webapps/trynode/bin/node > /dev/null 2>&1 && exit 0
+mkdir -p /home/kingpharaoh/webapps/trynode/run
+nohup /home/kingpharaoh/webapps/trynode/bin/node /home/kingpharaoh/webapps/trynode/hello-world.js > /dev/null 2>&1 &
+/sbin/pidof /home/kingpharaoh/webapps/trynode/bin/node > /home/kingpharaoh/webapps/trynode/run/node.pid

@@ -1,0 +1,13 @@
+Installing Packages with npm
+
+npm is the Node.js package management tool. To install a package with npm:
+
+    Open an SSH session to your account.
+
+    Switch to your Node.js application’s directory. Enter cd $HOME/webapps/nodejs_app/, where nodejs_app is the name of your Node.js application as it appears on the control panel, and press Enter.
+
+    Add the application’s bin directory to your PATH environment variable.
+
+	  Enter export PATH=$PWD/bin/:$PATH and press Enter.
+
+    Enter npm install -g package, where package is the name of the package to be installed, and press Enter.

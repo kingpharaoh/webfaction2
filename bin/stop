@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/pkill -f /home/kingpharaoh/webapps/trynode/bin/node && rm -f /home/kingpharaoh/webapps/trynode/run/node.pid
